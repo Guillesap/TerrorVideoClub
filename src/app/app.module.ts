@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { TestComponent } from './test/test.component';
+import { CardComponent } from './card/card.component';
+import { FormComponent } from './form/form.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { TestComponent } from './test/test.component';
     HomeComponent,
     FooterComponent,
     TestComponent,
+    CardComponent,
+    FormComponent,
  
   ],
   imports: [

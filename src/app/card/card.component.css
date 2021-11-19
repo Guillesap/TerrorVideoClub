@@ -1,0 +1,27 @@
+.todaslastarjetas{
+  background-color: black;
+}
+.card {
+  display: inline-block;
+  border: solid;
+  border-color: rgb(192, 78, 12);
+  padding: 2mm;
+  margin-left: 4mm;
+  background-color: black;
+}
+
+.card-body {
+  background-color: rgb(204, 11, 11);
+}
+
+.card-text {
+  color:rgb(218, 224, 211);
+  text-align: center;
+  font-size: 5mm;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+  color: gold;
+  text-align: center;
+}
