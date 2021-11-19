@@ -1,8 +1,13 @@
-/*pie de pagina*/
 footer {
   margin: 0;
   text-align: center;
-  background-color: rgb(226, 6, 6);
+  background-color: rgb(173, 13, 8);
+  height: 10vh;
+  padding: 5mm;
 }
 
+article, footer {
+  flex: 1;
+  margin: 0;
+}
 
