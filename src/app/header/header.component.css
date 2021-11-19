@@ -1,0 +1,33 @@
+/*nav bar*/
+
+#menu {
+  background-color: rgb(212, 10, 10);
+}
+
+#menu a {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(17, 3, 3);
+    padding: 0.5cm;
+}
+
+#menu ul li a {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: auto;
+    padding: 1mm;
+    margin: 15mm;
+    text-transform: uppercase;
+    border: solid;
+    border-color:rgb(243, 236, 236);
+    background-color: rgb(19, 18, 18);
+}
+
+#menu ul li a:hover {
+    color: rgb(223, 64, 11);
+  }
+
+#fraselogo {
+  color: antiquewhite;
+}
