@@ -4,11 +4,12 @@
 .card {
   display: inline-block;
   border: solid;
-  border-color: rgb(199, 45, 7);
+  border-color: rgb(7, 26, 199);
   padding: 0mm;
   background-color: black;
   margin-left: 0.2cm;
   margin-bottom: 0.2cm;
+  width: 15rem;
 }
 
 .card-body {
@@ -23,7 +24,7 @@
 }
 
 h2 {
-  color: gold;
+  color: rgb(170, 48, 17);
   text-align: center;
 }
 
