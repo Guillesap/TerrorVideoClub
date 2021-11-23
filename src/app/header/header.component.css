@@ -31,3 +31,31 @@
 #fraselogo {
   color: antiquewhite;
 }
+
+/* media query */
+
+@media (max-width:768px) {
+  #menu a {
+      font-size: 20 px;
+      font-weight: bold;
+      color: rgb(17, 3, 3);
+  }
+
+  #menu ul li a {
+      text-align: center;
+      color: whitesmoke;
+      font-size: 15px;
+      font-weight: auto;
+      padding: 0.1mm;
+      margin: 1mm;
+      text-transform: uppercase;
+      border: solid;
+      border-color:rgb(228, 228, 225);
+      background-color: rgb(13, 3, 54);
+  }
+
+  #menu ul li a:hover {
+      color: rgb(135, 216, 29);
+    }
+
+}
