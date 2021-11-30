@@ -28,13 +28,25 @@
     color: rgb(223, 64, 11);
   }
 
-#fraselogo {
+  .lOgo {
+    margin: 10mm;
+  }
+
+.lOgo img{
+  border: solid;
+  border-color: beige;
   color: antiquewhite;
+  width: 300;
+  height: 200;
 }
 
 /* media query */
 
 @media (max-width:768px) {
+  #menu {
+    padding: 10mm;
+  }
+
   #menu a {
       font-size: 20 px;
       font-weight: bold;
@@ -56,6 +68,21 @@
 
   #menu ul li a:hover {
       color: rgb(135, 216, 29);
+    }
+    .lOgo {
+      padding: 10mm;
+    }
+
+    .lOgo img{
+      display: flex;
+      flex-direction: column;
+      border: solid;
+      border-color: rgb(7, 31, 138);
+      color: antiquewhite;
+      width: 300;
+      height: 200;
+      margin: auto;
+
     }
 
 }
